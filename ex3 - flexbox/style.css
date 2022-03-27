@@ -1,0 +1,39 @@
+:root{
+  --button-color: red;
+}
+header {
+  display: flex;
+  align-content: stretch;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header>ul {
+ height: 100%;
+}
+
+header>ul>li {
+  font-size: 1.5rem;
+  display: inline-block;
+  margin: 2rem;
+  animation: skew 2s infinite; 
+  background-color: var(--button-color);
+  color: aliceblue;
+  transform: skew(20deg);
+  animation-direction: alternate;}
+
+@keyframes skew {
+  0% {
+    transform: skewX(20deg);
+  }
+  100% {
+    transform: skewX(-20deg);
+  }
+}
+
+header>ul>li:hover {
+  background-color: aqua;
+  color: blueviolet;
+  transition: .4s;
+
+}

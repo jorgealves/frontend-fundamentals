@@ -1,0 +1,40 @@
+* {
+  font-family: "Verdana, Geneva, Tahoma, sans-serif";
+  font-size: medium;
+  font-weight: bold;
+  font-size: large;
+}
+
+header {
+    margin-left: 10pc;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+header h1 {
+  font-size: xxx-large;
+  font-style: italic;
+  font-weight: bolder;
+  font-stretch: extra-expanded;
+}
+
+section article{
+    padding: 2em 5em;
+    word-wrap: break-word;
+    word-break:keep-all;
+    word-spacing: 3px;
+    color: darkolivegreen;
+}
+
+section article ul {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+
+section img {
+    border-style: outset;
+    border-color: cadetblue;
+    border-width: 1em;
+    border-radius: 4rem;
+}
